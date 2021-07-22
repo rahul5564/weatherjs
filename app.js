@@ -22,13 +22,6 @@ async function click(){
     <p>Windspeed : ${resp.wind.speed}</p>
     <p>Country : ${resp.sys.country}</p>
 `
-        // console.log(resp)
-        // console.log(resp.name)
-        // console.log(resp.weather[0].description)
-        // console.log(resp.main.humidity)
-        // console.log(resp.main.sea_level)
-        // console.log(resp.sys.country)
-        
         
 }
 
