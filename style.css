@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #363945;
+    color: #A0DAA9;
+}
+h2{
+    background-color: #34568B;
+    color: #EDD59E;
+    font-weight: bold;
+}
+.container{
+    margin-top: 3rem;
+}
+.latlong{
+    margin: 10px;
+}
+input::placeholder{
+    font-size: 10px;
+}
+#submit{
+    border-radius: 3.5px;
+    background-color: #7FCDCD;
+    font-weight: bold;
+    opacity: 0.8;
+}
+#submit:hover{
+    background-color:#7a7cb8;
+    color: white;
+}
+#info{
+    color: #0072B5;
+    /* font-weight: bold; */
+}
+footer{
+    background-color: #34568B; 
+    margin-top: 2rem;
+    padding: 7px;
+}
