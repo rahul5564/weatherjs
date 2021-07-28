@@ -13,7 +13,7 @@ var output = document.getElementById('info');
         output.innerHTML = 
     `
         <p>City : ${resp.name}</p>
-        <p>Temperature : ${resp.main.temp}</p>
+        <p>Temperature(°C) : ${resp.main.temp} </p>
         <p>Humidity : ${resp.main.humidity}</p>
         <p>Sealavel : ${resp.main.sea_level}</p>
         <p>Windspeed : ${resp.wind.speed}</p>
