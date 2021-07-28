@@ -1,12 +1,9 @@
-var ui = new UI;
 //city value
 var city = document.getElementById('inputLong').value;
 //submit option
 var submit = document.getElementById('submit').addEventListener('click',click);
 //output 
 var output = document.getElementById('info');
-ui.clearprofile()
-
 
  async function click(){
         var api = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c51b2a8944880ed480b471de869f3619&units=metric`);
