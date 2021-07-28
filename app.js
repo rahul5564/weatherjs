@@ -7,7 +7,7 @@ var output = document.getElementById('info');
 
  async function click(){
     var city = document.getElementById('inputLong').value;
-        var api = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c51b2a8944880ed480b471de869f3619`);
+        var api = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c51b2a8944880ed480b471de869f3619&units=metric`);
         var resp = await api.json();
  
         output.innerHTML = 
@@ -20,7 +20,7 @@ var output = document.getElementById('info');
         <p>Country : ${resp.sys.country}</p>
     ` 
 }
-console.log(resp)
+
 
     
 
